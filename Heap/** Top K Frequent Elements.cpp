@@ -33,9 +33,9 @@ public:
     }
 };
 
-// Time complexity : \mathcal{O}(N \log k)O(Nlogk) if k < Nk<N and \mathcal{O}(N)O(N) in the particular case of N = kN=k. That ensures time complexity to be better than \mathcal{O}(N \log N)O(NlogN).
+// Time complexity : O(Nlogk) if k <N and O(N) in the particular case of N =k. That ensures time complexity to be better than O(NlogN).
 
-// Space complexity : \mathcal{O}(N + k)O(N+k) to store the hash map with not more NN elements and a heap with kk elements.
+// Space complexity : O(N+k) to store the hash map with not more N elements and a heap with k elements.
 
 
-// other approches to look at - https://leetcode.com/problems/top-k-frequent-elements/solution/
+// ** other approches to look at - https://leetcode.com/problems/top-k-frequent-elements/solution/
